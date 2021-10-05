@@ -1,0 +1,80 @@
+    /*********************************************************************************
+
+	Template Name: Boighor Bookshop Responsive Bootstrap4 Template  
+	Description: Template description
+	Version: 1.0
+	Note: This is custom css. All custom styles (user styles) declare here.
+
+**********************************************************************************/
+    /*Loading*/
+    
+    #loading {
+        background: var(--white) url(../images/loader.gif) no-repeat scroll center center;
+        height: 100%;
+        width: 100%;
+        background-size: 15%;
+        position: fixed;
+        margin-top: 0px;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        overflow: hidden !important;
+        right: 0px;
+        z-index: 999999;
+    }
+    
+    #loading-center {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .loader {
+        width: 3em;
+        height: 3em;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+    }
+    
+    .discount-item {
+        color: #959595;
+        font-weight: 600;
+        font-size: 20px;
+        margin: 0 5px;
+        text-decoration: line-through;
+    }
+    
+    #map {
+        position: inherit;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .img__boxsearch {
+        position: inherit;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+    
+    .title__boxsearch {
+        float: right;
+        margin: 0px auto;
+    }
+    
+    #hits {
+        overflow: auto;
+        height: 650px;
+        padding: 25px 20px;
+        box-shadow: 0 3px 3px rgb(0 0 0 / 15%);
+        margin: 4px 0 0;
+        min-width: 100%;
+        top: 100%;
+        z-index: 100;
+        font-family: initial;
+    }
